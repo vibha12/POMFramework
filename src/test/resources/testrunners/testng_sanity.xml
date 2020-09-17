@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Hubspot test automation regression Suite" verbose="1" >
+  <test name="LoginTest">
+  <parameter name="browser" value ="chrome"></parameter>
+    <classes>
+     
+      <class name="com.qa.hubspot.tests.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
