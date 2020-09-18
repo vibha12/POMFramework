@@ -44,6 +44,7 @@ public class LoginPage extends BasePage {
          elementutil.doSendKeys(emailId, un);
          elementutil.doSendKeys(password, pass);
          elementutil.doClick(loginButton);
+         System.out.println("logedin");
                elementutil.waitForElementToBeVisible(loginCode, 30);       
 		/*driver.findElement(emailId).sendKeys(un);
 		driver.findElement(password).sendKeys(pass);
